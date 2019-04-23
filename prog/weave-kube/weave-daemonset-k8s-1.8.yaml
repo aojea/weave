@@ -121,7 +121,7 @@ items:
                 - /home/weave/launch.sh
               env:
                 - name: WEAVE_NO_FASTDP
-                  value: true
+                  value: "true"
                 - name: HOSTNAME
                   valueFrom:
                     fieldRef:
